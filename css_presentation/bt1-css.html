@@ -78,7 +78,7 @@ border-color:purple;
 
 body header nav {
     display: inline-block;
-    width: 75%;
+    width: 90%;
     margin: auto;
     padding: 12px;
     border: 2px solid #000;
@@ -105,7 +105,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: black;
 }
 body {
     font: 14px normal Arial;
@@ -113,12 +113,70 @@ body {
 }
 body header nav ul li ul.sub-nav-list {
     position: absolute;
-    display: none;
+    display:none ;
     background-color: rgba(179, 94, 243, 0.9);
     border-radius: 5px;
     text-align:center;
     width:120px;
 }
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
  </style> 
 </head>
 <body>
@@ -132,48 +190,52 @@ body header nav ul li ul.sub-nav-list {
 </form>
 </span>
 </div>
-<nav>
- <ul class="A">
-  <li><a href="#home">Home</a></li>
-  <li><a href="#">Presentations</a>
-  <ul class="nav-list sub-nav-list">
-                        <li class="selected">
+<nav class="navbar">
+ 
+  <a href="#home">Home</a>
+  <div class="dropdown">
+    <p class="dropbtn">Presentation 
+      <i class="fa fa-caret-down"></i>
+    </p>
+    <div class="dropdown-content">
+  
                             <a href="#">Intro CSS Styling Course</a>
-                        </li>
+                       
                         <br>
-                        <li>
+                        
                             <a href="#">CSS Overview</a>
-                        </li>
-                        <br>
-                        <li>
-                            <a href="#">CSS Presentation</a>
-                        </li>
-                        <br>
-                        <li>
-                            <a href="#">CSS Display</a>
-                        </li>
-                        <br>
-                        <li>
-                            <a href="#">CSS Layout</a>
-                        </li>
                         
                         <br>
-                        <li>
-                            <a href="#">SASS</a>
-                        </li>
+                        
+                            <a href="#">CSS Presentation</a>
+                        
                         <br>
-                        <li>
+                        
+                            <a href="#">CSS Display</a>
+                        
+                        <br>
+                        
+                            <a href="#">CSS Layout</a>
+                        
+                        
+                        <br>
+                        
+                            <a href="#">SASS</a>
+                        
+                        <br>
+                        
                             <a href="#">LESS</a>
-                        </li>
-                    </ul>
-                    </li>
+                        
+                        
+                    </div>
+  </div> 
 
-  <li><a href="#">Videos</a></li>
-  <li><a href="#">Trainer</a></li>
-  <li><a href="#">Contact</a></li>
+  <a href="#">Videos</a>
+  <a href="#">Trainer</a>
+  <a href="#">Contact</a>
 
   
-</ul>
+
 
 </nav>
 </header>
