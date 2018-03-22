@@ -1,0 +1,1985 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.wrapper {
+    width: 980px;
+    margin: 0 0 0 -490px;
+    float: left;
+    left: 50%;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+#homepage {
+    float: left;
+    position: relative;
+    z-index: -3;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.content-wrap {
+    float: left;
+    width: 664px;
+    position: relative;
+    z-index: -3;
+}
+.page-sidebar, section.sidebar {
+    width: 300px;
+    float: right;
+    position: relative;
+}
+#zheader {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    background: #111;
+    margin-bottom: 0px;
+    overflow: hidden;
+    z-index: 999;
+}
+.wrapper {
+    width: 980px;
+    margin: 0 0 0 -490px;
+    float: left;
+    left: 50%;
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+#zheader hgroup {
+    width: 95px;
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    margin: 0 0;
+}
+#zheader form {
+    float: left;
+    position: relative;
+    width: 440px;
+    height: 35px;
+    overflow: hidden;
+    padding: 2px 0;
+    margin: 5px 0 0 10px;
+}
+#zheader .apps {
+    float: left;
+    overflow: hidden;
+    height: 23px;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+ul {
+    list-style: none;
+}
+element.style {
+    display: block;
+}
+#zheader #bookmark {
+    float: right;
+    line-height: 45px;
+    color: #F37B24;
+    display: none;
+    font-size: 14px;
+}
+#zheader hgroup .logo {
+    margin: 0;
+}
+#zheader hgroup .logo a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0px 0;
+    overflow: hidden;
+    text-indent: -999px;    
+    background: url(https://znews-static.zadn.vn/css/img/logo_zing_trithuc.png) no-repeat left 50%;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+}
+#zheader form input {
+    float: left;
+    width: 300px;
+    height: 32px;
+    line-height: 18px;
+    color: #888;
+    font-size: 11px;   
+    padding: 3px 5px 3px 20px;
+    border: 2px solid #333;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    background: #fff url(https://znews-static.zadn.vn/css/img/icons.gif) no-repeat 5px -34px;
+    
+}
+input, select {
+    vertical-align: middle;
+}
+#zheader form button {
+font-size:11px;
+font-weight:bold;  
+text-transform: uppercase;  
+float: left;
+padding: 0 5px;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+border: 2px solid #333;
+border-radius: 0 5px 5px 0;
+width: 70px;
+height: 30px;
+line-height: 30px;
+background: #ee7915;
+}
+#zheader .apps li {
+    float: left;
+    height: 20px;
+    line-height: 25px;
+
+}
+#zheader .apps a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    padding: 0 10px;
+    color: #fff;
+    text-transform: uppercase;    
+    font-size: 13px;
+}
+
+////////////////////
+#site-header {
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin: 8px 0 1px;
+    position: relative;
+}
+element.style {
+    position: relative;
+    float: none;
+    margin: 0px auto 10px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+#site-header #banner_top {
+    height: 90px;
+    float: left;
+    line-height: 90px;
+    width: 100%;
+}
+.banner {
+    margin: 0 0 5px;
+    overflow: visible;
+    text-align: center;    
+    color: #ccc;
+    position: relative;
+    float: left;
+    background: #fafafa;
+}
+/////////////////////////////////////
+element.style {
+    z-index: 1000;
+}
+.categories {
+    float: left;
+    width: 100%;
+    margin: 0px 0 10px;
+    position: relative;
+    overflow: hidden;
+    background: #fafafa;
+}
+#nav{
+display:block;
+margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+}
+.categories>ul {
+    float: left!important;
+    width: 102%!important;
+    height: 43px;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+}
+.categories>ul li.homepage {
+    border-color: #00AEE8;
+    margin-right: -2px;
+}
+.categories>ul li.parent {
+    border-top: 3px solid #ccc;
+   
+}
+.categories>ul li {
+    float: left;
+    
+}
+.categories>ul li.blue, .categories>ul li.kinh-doanh, .categories>ul li.kinh-doanh-tai-chinh, .categories>ul li.phap-luat, .categories>ul li.the-gioi, .categories>ul li.thi-truong, .categories>ul li.thoi-su, .categories>ul li.xa-hoi {
+    
+    border-color:    #00AEE8;
+}
+.categories>ul li.blue.parent>a, .categories>ul li.kinh-doanh-tai-chinh.parent>a, .categories>ul li.kinh-doanh.parent>a, .categories>ul li.phap-luat.parent>a, .categories>ul li.the-gioi.parent>a, .categories>ul li.thoi-su.parent>a {
+    color: #007197;
+}
+.categories>ul li.cong-nghe, .categories>ul li.green, .categories>ul li.oto-xe-may, .categories>ul li.the-gioi-sach, .categories>ul li.the-thao, .categories>ul li.xuat-ban {
+    border-color: #008e00;
+}
+.categories>ul li.cong-nghe.parent>a, .categories>ul li.green.parent>a, .categories>ul li.oto-xe-may.parent>a, .categories>ul li.the-gioi-sach.parent>a, .categories>ul li.the-thao.parent>a, .categories>ul li.xuat-ban.parent>a {
+    color: #008e00;
+}
+.categories>ul li.am-nhac, .categories>ul li.giai-tri, .categories>ul li.orange, .categories>ul li.phim-anh, .categories>ul li.thoi-trang {
+    border-color: #ff6b00;
+}
+
+.categories>ul li.am-nhac, .categories>ul li.giai-tri, .categories>ul li.orange, .categories>ul li.phim-anh, .categories>ul li.thoi-trang {
+    border-color: #ff6b00;
+}
+.categories>ul li.am-nhac.parent>a, .categories>ul li.giai-tri.parent>a, .categories>ul li.orange.parent>a, .categories>ul li.phim-anh.parent>a, .categories>ul li.thoi-trang.parent>a {
+    color: #ff6b00;
+}
+.categories>ul li.du-lich, .categories>ul li.giao-duc, .categories>ul li.nhip-song, .categories>ul li.pink, .categories>ul li.song-tre, .categories>ul li.suc-khoe {
+    border-color: #FF0055;
+   
+}
+ .categories>ul li.giao-duc.parent>a,  .categories>ul li.pink.parent>a, .categories>ul li.song-tre.parent>a, .categories>ul li.suc-khoe.parent>a {
+    color: #FF0055;
+}
+.categories .subcate {
+    display: none;
+    float: left;
+    width: 100%;
+}
+.categories .subcate>ul {
+    float: none;
+}
+ul {
+    list-style: none;
+}
+.categories>ul li.homepage {
+    border-color: #00AEE8;
+    margin-right: -2px;
+}
+
+.categories>ul li {
+    float: left;
+}
+
+==============================
+.wrapper {
+    width: 96%;
+    left: 0;
+    margin: 0 2%;
+}
+.wrapper {
+    width: 980px;
+   
+    float: left;
+    
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+#homepage {
+    float: left;
+    position: relative;
+    z-index: -3;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.content-wrap {
+    float: left;
+    width: 664px;
+    position: relative;
+    z-index: -3;
+}
+.hot-news{
+float: left;
+    height: 20px;
+    line-height: 14px;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 1px solid #f7f7f7;
+
+}
+.hot-news h2{
+    display: block;
+    float: left;
+    color: #ff6b00;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+section.featured {
+    float: left;
+    width: 472px;
+    margin: 8px 0;
+    border-bottom: 0;
+}
+section.featured article.featured {
+    width: 100%;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f7f7f7;
+}
+section.featured article {
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+#homepage section.featured article.featured .cover {
+    width: 470px;
+    height: 260px;
+    float: none;
+    margin-bottom: 4px;
+}
+a {      
+    
+    font-size: 100%;
+    vertical-align: baseline;    
+    text-decoration: none;
+    color: #333;
+}
+section.featured article.featured header {
+    display: block;
+    max-height: none;
+}
+section.featured article header {
+    overflow: hidden;
+}
+#homepage section.featured article.featured .summary {
+    overflow: hidden;
+}
+section.featured article.featured .summary {
+    display: block;
+}
+article .summary {
+    
+    overflow: hidden;
+    font-size: 1em;
+    line-height: 1.2;
+    color: #333;
+}
+article .relate {
+    margin: 4px 0 0;
+}
+ul {
+    list-style: none;
+    
+}
+article.featured .relate li {
+    display: inline;
+}
+article .relate li {
+    display: inline;
+    font-size: 11px;
+    line-height: 14px;
+    margin-right: 10px;
+    
+}
+section.featured article {
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+article {
+    float: left;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    color: #000;
+}
+article .cover {
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+section.featured article header {
+    overflow: hidden;
+}
+article>header .title {
+    margin: 0;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+}
+header{
+display:block;
+}
+article .title {
+    position: relative;
+}
+section.featured article .cover {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 4px;
+}
+article .cover {
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+section.featured article {
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+=========================================================
+.A {
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: 0;
+    direction: ltr;
+}
+section.trending {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+section.trending {
+    float: right;
+    overflow: hidden;
+    width: 180px;
+    height: 500px;
+    margin: 0 0 10px;
+    padding: 8px 0 0 8px;
+    border-left: 1px solid #ededed;
+}
+article {
+    float: left;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    color: #000;
+}
+section.trending .top-list {
+    float: left;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 8px;
+    width: 100%;
+}
+section.trending .top-list article {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+}
+section.trending .top-list article .cover {
+    display: block;
+    width: 100%;
+    height: 112px;
+    margin-bottom: 5px;
+}
+
+article .cover {
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+article .cover a {
+    display: block;
+    width: 100%;
+    height: 150%;
+}
+article a {
+    color: #000;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+}
+section.trending article header .title {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+article>header .title {
+    
+    font-weight: bold;
+}
+article .title {
+    position: relative;
+}
+==================================
+ section.sidebar {
+    width: 300px;
+    float: right;
+    position: relative;
+}
+#advR1, #advR2 {
+    width: 300px;
+    height: 300px;
+}
+.banner {
+    margin: 0 0 5px;
+    overflow: visible;
+    text-align: center;
+    font-size: 2em;
+    color: #ccc;
+    position: relative;
+    float: left;
+    background: #fafafa;
+}
+===================================
+#multimedia {
+    float: left;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border-top: 8px solid blue;    
+    
+}
+#multimedia>header {
+    margin-bottom: 0px;
+}
+#multimedia>header h2 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    position: relative;
+    display: inline;    
+    right: 550px;
+    padding-top: 0px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-left: 12px;   
+    color: #0098D3;
+    background: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+}
+section {
+    display: block;
+}
+
+
+#multimedia article {
+    float: left;
+    width: 19%;
+    padding-bottom: 0;
+    margin-right: 1%;
+    border-bottom: 0;
+    margin-top: 10px;
+}
+#multimedia article .cover {
+    float: none;
+    width: 100%;
+    height: 135px;
+}
+article .cover a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+article a {
+    color: #000;
+}
+article .cover img {
+    width: 100%;
+    height: 100%;  
+}
+a img {
+    border: none;
+    outline: none;
+}
+#multimedia article header .title {
+    display: block;
+    margin-top: 20px;
+}
+article>header .title {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+}
+#multimedia article header .title a {
+    color: #333;
+}
+==================================
+.content-wrap {
+    float: left;
+    width: 664px;
+    position: relative;
+    z-index: -3;
+}
+section#kinh-doanh-tai-chinh.category, section#kinh-doanh.category, section#phap-luat.category, section#the-gioi.category, section#thoi-su.category, section#xa-hoi.category {
+    border-top-color: #57badf;
+}
+section.category {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    border-top: 1px solid #ccc;
+}
+section.category>header {
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5;   
+    box-shadow: 0px 2px 0 #ff6b00;
+  
+}
+section.category>header h2 {
+    float: left;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height:0px;   
+    padding-right: 10px;
+    white-space: nowrap;
+}
+section#kinh-doanh-tai-chinh.category>header h2 a, section#kinh-doanh.category>header h2 a, section#phap-luat.category>header h2 a, section#the-gioi.category>header h2 a, section#thoi-su.category>header h2 a, section#xa-hoi.category>header h2 a {
+    color: #006588;
+}
+hrgroup{
+    display: block;
+}
+  
+  section.category>header p {
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 30px;    
+    margin-right: 10px;
+    white-space: nowrap;
+}
+section.category>header p a {
+    color: #555;
+}
+section.category article.featured {
+    float: left;
+    width: 50%;
+    margin-bottom: 8px;
+    padding-right: 8px;
+}
+section.category article header {
+    float: none;
+    overflow: hidden;
+    border: none;   
+    box-shadow: none;
+    height: auto;
+    width: auto;
+    margin-bottom: 4px;
+}
+section.category article.featured header .title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+   display: inline-block;
+    margin-bottom: 5px;
+}
+section.category article.featured header .title a {
+    background: none;
+    padding-left: 0;
+}
+article a {
+    color: #000;
+}
+section.category article.featured .cover {
+    width: 160px;
+    height: 120px;   
+   margin-right: 8px;
+}
+article .cover a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section.category article.featured .summary {
+    display: block;
+    max-height: 112px;
+}
+section.category article .summary {   
+    overflow: hidden;
+}
+article .relate {
+    margin: 4px 0 0;
+}
+ul {
+    list-style: none;
+}
+article .relate li {
+    display: inline;
+    font-size: 11px;
+    line-height: 14px;
+    margin-right: 10px;
+}
+article .relate li a {
+    color: #555;
+}
+section.category .top {
+    float: left;
+    width: 32%;
+    min-height: 160px;
+    padding: 0 10px;
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+}
+section.category article {
+    float: left;
+    display: block;
+    height: auto!important;
+    margin-bottom: 6px;
+}
+section.category article.aside {
+    float: left;
+    width: 15%;
+    margin-left: 10px;
+}
+section.category article header {
+    float: none;
+    overflow: hidden;
+    border: none;   
+    box-shadow: none;
+    height: auto;
+    width: auto;
+    margin-bottom: 4px;
+   
+}
+section.category article header .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    line-height: 16px;
+    color: #333;
+    display: block;
+}
+=========================================
+footer {
+    clear: both;
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+footer .wrapper {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+copyright .logo {
+    float: right;
+    font-size: 20px;
+    margin-right: 2px;
+}
+=========================================
+.page-sidebar, section.sidebar {
+    width: 300px;
+    float: right;
+    position: relative;
+}
+.page-sidebar>section.pictures, section.sidebar>section.pictures {
+    border: 0;
+    overflow: hidden;
+    position: relative;
+    height: 260px;
+}
+.page-sidebar>section.pictures>header, section.sidebar>section.pictures>header {
+    border-top: 2px solid #ff0085;
+}
+section.sidebar>section>header h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin: 0 0 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+}
+</style>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+<header id="zheader">
+<div class="wrapper">
+<hgroup>
+<div class="logo"><a href="/" title="Zing News">Zing News - Tri thức trực tuyến</a></div>
+</hgroup>
+<form name="search" id="searchbox" class="znewsSearch">
+<input type="text" placeholder="Nhập nội dung cần tìm" id="search_keyword">
+<button type="submit" id="search_button">Tìm kiếm</button>
+
+</form>
+<ul class="apps">
+<li class="mp3"><a href="https://mp3.zing.vn" title="Zing MP3" target="_blank">MP3</a></li>
+<li class="tv"><a href="https://tv.zing.vn" title="Zing TV" target="_blank">TV</a></li>
+<li class="me"><a href="http://me.zing.vn" title="Zing Me" target="_blank">ME</a></li>
+</ul>
+
+
+</div>
+</header>
+<div class="wrapper">
+<header id="top">
+<div id="site-header">
+<div id="banner_top" class="banner">
+<div id="advTop"></div>
+</div>
+</div>
+<nav class="categories">
+<ul>
+<li class="parent homepage current"><p>
+        <a href="#">
+          <span class="glyphicon glyphicon-home"></span>
+        </a>
+      </p>
+</li>
+<li class="parent thoi-su ">
+<a href="/thoi-su.html">Thời sự</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/giao-thong.html">Giao thông</a>
+</li>
+<li>
+<a href="/do-thi.html">Đô thị</a>
+</li>
+<li>
+<a href="/doi-song.html">Đời sống</a>
+</li>
+<li>
+<a href="/quoc-phong.html">Quốc phòng</a>
+</li>
+<li>
+<a href="/anh-video-thoi-su.html">Ảnh & Video</a>
+</li>
+<li><a href="/nhip-song-Tet-2018-tieu-diem.html">Nhịp sống Tết</a></li>
+</ul>
+</div>
+</li>
+<li class="parent the-gioi ">
+<a href="/the-gioi.html">Thế giới</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/anh-video-the-gioi.html">Ảnh & Video</a>
+</li>
+<li>
+<a href="/quan-su-the-gioi.html">Quân sự</a>
+</li>
+<li>
+<a href="/tu-lieu-the-gioi.html">Tư liệu</a>
+</li>
+<li>
+<a href="/phan-tich-the-gioi.html">Phân tích</a>
+</li>
+<li>
+<a href="/nguoi-viet-4-phuong.html">Người Việt 4 phương</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent kinh-doanh-tai-chinh ">
+<a href="/kinh-doanh-tai-chinh.html">Kinh doanh</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/tai-chinh.html">Tài chính</a>
+</li>
+<li>
+<a href="/chung-khoan.html">Chứng khoán</a>
+</li>
+<li>
+<a href="/bat-dong-san.html">Bất động sản</a>
+</li>
+<li>
+<a href="/doanh-nhan.html">Doanh nhân</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent phap-luat ">
+<a href="/phap-luat.html">Pháp luật</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/phap-dinh.html">Pháp đình</a>
+</li>
+<li>
+<a href="/vu-an.html">Vụ án</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent xuat-ban ">
+<a href="/xuat-ban.html">Xuất bản</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/tin-tuc-xuat-ban.html"></a>
+</li>
+<li>
+<a href="/sach-hay.html">Sách hay</a>
+</li>
+<li>
+<a href="/tac-gia.html">Tác giả</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent the-thao ">
+<a href="/the-thao.html">Thể thao</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/the-thao-viet-nam.html">Thể thao Việt Nam</a>
+</li>
+<li>
+<a href="/cup-chau-au.html">Cup Châu Âu</a>
+</li>
+<li>
+<a href="/the-thao-the-gioi.html">Thể thao Thế giới</a>
+</li>
+<li>
+<a href="/bong-da.html">Bóng đá</a>
+</li>
+<li>
+<a href="/bong-da-anh.html">Bóng đá Anh</a>
+</li>
+<li>
+<a href="/bong-da-viet-nam.html">Bóng đá Việt Nam</a>
+</li>
+<li>
+<a href="/bong-ro.html">Bóng rổ</a>
+</li>
+<li>
+<a href="/clip-video-ban-thang.html">Video bóng đá</a>
+</li>
+<li>
+<a href="/hau-truong-the-thao.html">Hậu trường thể thao</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent cong-nghe ">
+<a href="/cong-nghe.html">Công nghệ</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/dien-thoai.html">Điện thoại</a>
+</li>
+<li>
+<a href="/may-tinh-bang.html">Máy tính bảng</a>
+</li>
+<li>
+<a href="/ung-dung-di-dong.html">Ứng dụng di động</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent oto-xe-may ">
+<a href="/oto-xe-may.html">Xe 360</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/xe-may.html">Xe máy</a>
+</li>
+<li>
+<a href="/o-to.html">Ô-tô</a>
+</li>
+<li>
+<a href="/xe-do.html">Xe độ</a>
+</li>
+<li>
+<a href="/sieu-xe.html">Siêu xe</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent giai-tri ">
+<a href="/giai-tri.html">Giải trí</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/sao-viet.html">Sao Việt</a>
+</li>
+<li>
+<a href="/sao-chau-a.html">Sao Châu Á</a>
+</li>
+<li>
+<a href="/sao-hollywood.html">Sao Hollywood</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent am-nhac ">
+<a href="/am-nhac.html">Âm nhạc</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/nhac-viet.html">Nhạc Việt</a>
+</li>
+<li>
+<a href="/nhac-han.html">Nhạc Hàn</a>
+</li>
+<li>
+<a href="/nhac-au-my.html">Nhạc Âu Mỹ</a>
+</li>
+<li><a href="/zing-chart-tieu-diem.html">#ZingChart</a></li>
+</ul>
+</div>
+</li>
+<li class="parent phim-anh ">
+<a href="/phim-anh.html">Phim ảnh</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/phim-chieu-rap.html">Phim chiếu rạp</a>
+</li>
+<li>
+<a href="/phim-truyen-hinh.html">Phim truyền hình</a>
+</li>
+<li>
+<a href="/game-show.html">Game Show</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent thoi-trang ">
+<a href="/thoi-trang.html">Thời trang</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/thoi-trang-sao.html">Thời trang sao</a>
+</li>
+<li>
+<a href="/mac-dep.html">Mặc đẹp</a>
+</li>
+<li>
+<a href="/lam-dep.html">Làm đẹp</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent song-tre ">
+<a href="/song-tre.html">Sống trẻ</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/guong-mat-tre.html">Gương mặt trẻ</a>
+</li>
+<li>
+<a href="/cong-dong-mang.html">Cộng đồng mạng</a>
+</li>
+<li>
+<a href="/su-kien.html">Sự kiện</a>
+</li>
+<li><a href="http://zing.vn/khoidaumoi" target="_blank">Khởi đầu mới</a></li>
+<li><a href="https://zing.vn/tetvoicongai/tin-tuc" target="_blank">Tết với con gái</a></li>
+</ul>
+</div>
+</li>
+<li class="parent giao-duc ">
+<a href="/giao-duc.html">Giáo dục</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/tuyen-sinh-dai-hoc-2018.html">Tuyển sinh 2018</a>
+</li>
+<li>
+<a href="/tu-van-giao-duc.html">Tư vấn</a>
+</li>
+<li>
+<a href="/du-hoc.html"> Du học</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="parent suc-khoe ">
+<a href="/suc-khoe.html">Sức khỏe</a>
+<div class="subcate">
+<ul>
+<li>
+<a href="/khoe-dep.html">Khỏe đẹp</a>
+</li>
+<li>
+<a href="/dinh-duong.html">Dinh dưỡng</a>
+</li>
+<li>
+<a href="/me-va-be.html">Mẹ và Bé</a>
+</li>
+<li>
+<a href="/benh-thuong-gap.html">Bệnh thường gặp</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</nav>
+</header>
+
+
+
+<section id="homepage" class="focus_layout">
+<div class="content-wrap">
+<div class="hot-news">
+<h2>Tin tức mới</h2>
+</div>
+<section class="featured">
+<article class="featured picture">
+<div class="cover">
+
+<a href="/ngay-cuoi-nam-buon-ben-dong-song-ghep-post818722.html">
+<img src="https://eva-img.24hstatic.com/upload/1-2018/images/2018-02-02/quang-hai-chien-thang-thuyet-phuc-giai-ban-thang-dep-nhat-u23-chau-a-quang-hai-1517575232-902-width540height256.jpg"  title="Những nhà vô địch trong tim người hâm mộ">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/ngay-cuoi-nam-buon-ben-dong-song-ghep-post818722.html">
+<h3>Những nhà vô địch trong tim người hâm mộ</h3>
+</a>
+</p>
+<p class="summary">Chiến đấu hết mình vì màu cờ sắc áo , đội tuyển Việt Nam khiến cả Châu Á phải ngã mũ thán phục .</p>
+</header>
+<ul class="relate" style="list-style-type:circle" >
+<li class="">
+<a href="#">
+          <span class="glyphicon glyphicon-circle-arrow-right"></span>
+        </a>
+<a href="/vinh-danh-nam-sinh-quen-minh-cuu-ba-me-con-post818592.html">
+Vinh danh nam sinh quên mình cứu ba mẹ con</a></li>
+<li class=" video">
+<a href="#">
+          <span class="glyphicon glyphicon-circle-arrow-right"></span>
+        </a>
+<a href="/video-vi-cuu-3-me-con-toi-em-hai-da-ra-di-post818511.html">
+'Vì cứu 3 mẹ con tôi, em Hải đã ra di'</a></li>
+</ul>
+</article>
+<article class="">
+<p class="type"></p>
+<div class="cover">
+<a href="/hop-dong-1-5-trieu-usd-cua-ba-me-viet-xin-cho-con-vao-ivy-league-post819231.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/zugtwi/2018_02_12/students_.jpg" alt="Hop dong 1,5 trieu USD cua ba me Viet xin cho con vao Ivy League hinh anh" title="Hợp đồng 1,5 triệu USD của bà mẹ Việt xin cho con vào Ivy League hình ảnh">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/hop-dong-1-5-trieu-usd-cua-ba-me-viet-xin-cho-con-vao-ivy-league-post819231.html">
+Hợp đồng 1,5 triệu USD của bà mẹ Việt xin cho con vào Ivy League
+</a>
+</p>
+
+</header>
+</article>
+<article class=" picture">
+<p class="type"></p>
+<div class="cover">
+<a href="/cao-toc-tq-ngay-tet-mat-mot-gio-xep-hang-moi-an-duoc-bat-mi-post819234.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/sgtnrb/2018_02_12/caotocTQ_9_thumb.jpg" alt="Cao toc TQ ngay Tet: Mat mot gio xep hang moi an duoc bat mi hinh anh" title="Cao tốc TQ ngày Tết: Mất một giờ xếp hàng mới ăn được bát mì hình ảnh">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/cao-toc-tq-ngay-tet-mat-mot-gio-xep-hang-moi-an-duoc-bat-mi-post819234.html">
+Cao tốc TQ ngày Tết: Mất một giờ xếp hàng mới ăn được bát mì
+</a>
+
+</p>
+</header>
+</article>
+<article class="">
+<p class="type"></p>
+<div class="cover">
+<a href="/mon-qua-u23-viet-nam-tang-thu-tuong-duoc-dau-gia-20-ty-dong-post819292.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/OFH_ftqftma2/2018_02_12/Ao_bong_U23_DAI_DIEN.jpg" alt="Mon qua U23 Viet Nam tang Thu tuong duoc dau gia 20 ty dong hinh anh" title="Món quà U23 Việt Nam tặng Thủ tướng được đấu giá 20 tỷ đồng hình ảnh">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/mon-qua-u23-viet-nam-tang-thu-tuong-duoc-dau-gia-20-ty-dong-post819292.html">
+Món quà U23 Việt Nam tặng Thủ tướng được đấu giá 20 tỷ đồng
+</a>
+<a href="#">
+          <span class="glyphicon glyphicon-facetime-video"></span> </a>   
+</p>
+</header>
+</article>
+</section>
+
+
+
+<section class="trending" style="position: relative; overflow: auto;">
+<div class="A" style="max-height: 600px;">
+<div class="top-list">
+<article class="">
+<p class="type"></p>
+<div class="cover">
+<a href="/nghi-pham-sat-hai-chu-tiem-thuoc-tay-o-sai-gon-khai-gi-post819493.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/Ugtntz/2018_02_13/CUONG.jpg" alt="Nghi pham sat hai chu tiem thuoc tay o Sai Gon khai gi? hinh anh" title="Nghi phạm sát hại chủ tiệm thuốc tây ở Sài Gòn khai gì? hình ảnh" width="150px",height="150px">
+</a>
+
+</div>
+<header>
+<p class="title">
+<a href="/nghi-pham-sat-hai-chu-tiem-thuoc-tay-o-sai-gon-khai-gi-post819493.html">
+Nghi phạm sát hại chủ tiệm thuốc tây ở Sài Gòn khai gì?
+</a>
+<a href="#">
+          <span class="glyphicon glyphicon-picture"></span>
+        </a>
+</p>
+</header>
+</article>
+</div>
+<article class=" advertising" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cac-phong-tuc-de-may-man-tai-loc-hanh-thong-nam-mau-tuat-post819561.html">
+Các phong tục để may mắn, tài lộc hanh thông năm Mậu Tuất
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+</p>
+</header>
+</article>
+<article class="">
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+
+</p>
+
+</header>
+</article>
+<article class="">
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+
+</p>
+
+</header>
+</article>
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+
+</p>
+
+</header>
+</article>
+
+
+
+<article class="" >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/cuoc-song-khong-chon-dung-than-cua-hacker-trieu-tien-post818957.html">
+Cuộc sống không chốn dung thân của hacker Triều Tiên
+</a>
+
+</p>
+</header>
+</article>
+</div>
+</section>
+</div>
+
+
+
+<section class="sidebar">
+<div id="advR1" class="banner">
+<img src="https://adtima-media-td.zadn.vn/2018/01/cba015ee-af13-4b2e-9a79-485e160cf2f2.jpg">
+</div>
+<div id="advR2" class="banner">
+<img src="https://adtima-media-td.zadn.vn/2018/02/56d38ac4-2b3a-4f83-bd59-b1e8084f332a.jpg" >
+</div>
+</section>
+
+<section id="multimedia">
+<header>
+<h2>Ảnh và video</h2>
+</header>
+<article class=" picture hasvideo" >
+<p class="type"></p>
+<div class="cover">
+<a href="/con-song-o-nhiem-nhat-the-gioi-nuoi-song-28-trieu-dan-indonesia-post823087.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/jaegtn/2018_03_02/8.JPG">
+</a>
+</div>
+<header>
+<p class="title">
+Con sông ô nhiễm nhất thế giới nuôi sống 28 triệu dân Indonesia
+</p>
+
+</header>
+</article>
+<article class=" picture hasvideo" >
+<p class="type"></p>
+<div class="cover">
+<a href="/con-song-o-nhiem-nhat-the-gioi-nuoi-song-28-trieu-dan-indonesia-post823087.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/jaegtn/2018_03_02/8.JPG" >
+</a>
+</div>
+<header>
+<p class="title">
+Con sông ô nhiễm nhất thế giới nuôi sống 28 triệu dân Indonesia
+</p>
+
+</header>
+</article>
+<article class=" picture hasvideo" >
+<p class="type"></p>
+<div class="cover">
+<a href="/con-song-o-nhiem-nhat-the-gioi-nuoi-song-28-trieu-dan-indonesia-post823087.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/jaegtn/2018_03_02/8.JPG">
+</a>
+</div>
+<header>
+<p class="title">
+Con sông ô nhiễm nhất thế giới nuôi sống 28 triệu dân Indonesia
+</p>
+
+</header>
+</article>
+<article class=" picture hasvideo" >
+<p class="type"></p>
+<div class="cover">
+<a href="/con-song-o-nhiem-nhat-the-gioi-nuoi-song-28-trieu-dan-indonesia-post823087.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/jaegtn/2018_03_02/8.JPG" >
+</a>
+</div>
+<header>
+<p class="title">
+Con sông ô nhiễm nhất thế giới nuôi sống 28 triệu dân Indonesia
+</p>
+
+</header>
+</article>
+<article class=" picture hasvideo" >
+<p class="type"></p>
+<div class="cover">
+<a href="/con-song-o-nhiem-nhat-the-gioi-nuoi-song-28-trieu-dan-indonesia-post823087.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/jaegtn/2018_03_02/8.JPG">
+</a>
+</div>
+<header>
+<p class="title">
+Con sông ô nhiễm nhất thế giới nuôi sống 28 triệu dân Indonesia
+</p>
+
+</header>
+</article>
+</section>
+<div class="content-wrap">
+<section id="thoi-su" class="category skin1">
+<header>
+<hgroup>
+<h2><a href="/thoi-su.html" title="Thời sự">Thời sự </a></h2>
+</hgroup>
+<p>
+<a href='/giao-thong.html'>Giao thông</a>
+</p>
+<p>
+<a href='/do-thi.html'>Đô thị</a>
+</p>
+<p>
+<a href='/doi-song.html'>Đời sống</a>
+</p>
+<p>
+<a href='/quoc-phong.html'>Quốc phòng</a>
+</p>
+<p>
+<a href='/anh-video-thoi-su.html'> Ảnh & Video </a>
+</p>
+<p><a href="/nhip-song-Tet-2018-tieu-diem.html">Nhịp sống Tết</a></p>
+</header>
+<article class="featured " >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/csgt-lam-dem-duoc-boi-duong-bao-nhieu-post823134.html">
+CSGT làm đêm được bồi dưỡng bao nhiêu?
+</a>
+</p>
+</header>
+<div class="cover">
+<a href="/csgt-lam-dem-duoc-boi-duong-bao-nhieu-post823134.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/pwivovlb/2018_03_02/IMG_11032016_203429_HHT_1457703447422.jpg" alt="CSGT lam dem duoc boi duong bao nhieu? hinh anh" title="CSGT làm đêm được bồi dưỡng bao nhiêu? hình ảnh">
+</a>
+</div>
+<p class="summary">Theo thông tư mới của Bộ Tài chính có hiệu lực từ 1/3, CSGT và lực lượng hỗ trợ đảm bảo ATGT ban đêm được bồi dưỡng tối đa 100.000 đồng nếu làm đủ ca 4 tiếng.</p>
+<ul class="relate">
+<li class="">
+<a href="/bo-cong-an-trinh-de-an-dau-gia-bien-so-oto-post822190.html">
+Bộ Công an trình đề án đấu giá biển số ôtô</a></li>
+</ul>
+</article>
+<div class="top">
+<article class=" haschart" >
+<header>
+<p class="title">
+<a href="/nguoi-me-ke-nguyen-nhan-doi-trai-gai-tu-tu-o-soc-trang-post823082.html">
+Người mẹ kể nguyên nhân đôi trai gái tự tử ở Sóc Trăng
+</a>
+
+</p>
+
+</header>
+</article>
+<article class=" picture">
+<header>
+<p class="title">
+<a href="/1001-kieu-gianh-giat-chen-lan-de-co-loc-dau-nam-post821954.html">
+1.001 kiểu giành giật, chen lấn để có lộc đầu năm
+</a>
+</p>
+
+</header>
+</article>
+<article class=" video" >
+<header>
+<p class="title">
+<a href="/video-vu-xe-ben-tong-hang-loat-xe-may-o-sai-gon-dien-ra-the-nao-post823172.html">
+Vụ xe ben tông hàng loạt xe máy ở Sài Gòn diễn ra thế nào?
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<header>
+<p class="title">
+<a href="/thi-diem-chat-van-va-tra-loi-chat-van-nhanh-voi-hai-bo-truong-post823097.html">
+Thí điểm chất vấn và trả lời chất vấn 'nhanh' với hai bộ trưởng
+</a>
+</p>
+</header>
+</article>
+</div>
+<article class="aside picture hasvideo" >
+<p class="type"></p>
+<div class="cover">
+<a href="/mac-so-mi-quan-jean-thi-dau-vat-o-le-hoi-den-vua-mai-post823020.html">
+<img src="https://znews-photo-td.zadn.vn/w120/Uploaded/mtfuc/2018_03_02/A7_zing.jpg" alt="Mac so mi, quan jean thi dau vat o le hoi den vua Mai hinh anh" title="Mặc sơ mi, quần jean thi đấu vật ở lễ hội đền vua Mai hình ảnh">
+</a>
+
+</div>
+<header>
+<p class="title">
+<a href="/mac-so-mi-quan-jean-thi-dau-vat-o-le-hoi-den-vua-mai-post823020.html">
+Mặc sơ mi, quần jean thi đấu vật ở lễ hội đền vua Mai
+</a>
+</p>
+</header>
+</article>
+</section>
+<section id="the-gioi" class="category skin1">
+<header>
+<hgroup>
+<h2><a href="/the-gioi.html" title="Thế giới">Thế giới </a></h2>
+</hgroup>
+<p>
+<a href='/anh-video-the-gioi.html'>Ảnh & Video</a>
+</p>
+<p>
+<a href='/quan-su-the-gioi.html'>Quân sự</a>
+</p>
+<p>
+<a href='/tu-lieu-the-gioi.html'>Tư liệu</a>
+</p>
+<p>
+<a href='/phan-tich-the-gioi.html'>Phân tích</a>
+</p>
+<p>
+<a href='/nguoi-viet-4-phuong.html'>Người Việt 4 phương</a>
+</p>
+</header>
+<article class="featured picture hasvideo">
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/do-luong-choan-nuoc-cua-cac-tau-san-bay-tren-the-gioi-post823015.html">
+Đọ lượng choán nước của các tàu sân bay trên thế giới
+</a>
+</p>
+
+</header>
+<div class="cover">
+<a href="/do-luong-choan-nuoc-cua-cac-tau-san-bay-tren-the-gioi-post823015.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/bpmoqwq1/2018_03_02/33214180246_0a4afb7264_k.jpg" >
+</a>
+&nbsp;
+</div>
+<p class="summary">Siêu hàng không mẫu hạm lớp Nimitz, với lượng choán nước hơn 100.000 tấn, là tàu sân bay lớn nhất thế giới mà con người từng chế tạo.</p>
+<ul class="relate">
+<li class=" picture hasvideo">
+<a href="/ben-trong-can-cu-khong-quan-noi-sap-den-viet-nam-post822268.html">
+Bên trong căn cứ không quân nổi sắp đến Việt Nam</a></li>
+</ul>
+</article>
+<div class="top">
+<article class=" picture hasvideo">
+<header>
+<p class="title">
+<a href="/bom-bao-tan-cong-cac-bang-bo-dong-nuoc-my-post823199.html">
+'Bom bão' tấn công các bang bờ Đông nước Mỹ
+</a>
+</p>
+
+</header>
+</article>
+<article class="" >
+<header>
+<p class="title">
+<a href="/dai-su-quan-phap-o-burkina-faso-bi-tan-cong-post823196.html">
+Đại sứ quán Pháp ở Burkina Faso bị tấn công
+</a>
+</p>
+
+</header>
+</article>
+<article class=" hasvideo" >
+<header>
+<p class="title">
+<a href="/khung-hoang-o-nha-trang-khi-hy-vong-tro-thanh-that-vong-post822712.html">
+Khủng hoảng ở Nhà Trắng: Khi 'Hy vọng' trở thành thất vọng
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<header>
+<p class="title">
+<a href="/tphcm-tim-loi-giai-cho-bai-toan-151-xe100-nguoi-cua-nam-2025-post823143.html">
+TP.HCM tìm lời giải cho bài toán 151 xe/100 người của năm 2025
+</a>
+</p>
+</header>
+</article>
+</div>
+<article class="aside video" >
+<p class="type"></p>
+<div class="cover">
+<a href="/video-90s-thong-diep-cung-ran-cua-putin-truoc-bau-cu-tong-thong-nga-post823195.html">
+<img src="https://znews-photo-td.zadn.vn/w120/Uploaded/jaegtn/2018_03_03/Putin.jpg">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/video-90s-thong-diep-cung-ran-cua-putin-truoc-bau-cu-tong-thong-nga-post823195.html">
+90s: Thông điệp cứng rắn của Putin trước bầu cử tổng thống Nga
+</a>
+</p>
+</header>
+</article>
+</section>
+<section id="thoi-su" class="category skin1">
+<header>
+<hgroup>
+<h2><a href="/thoi-su.html" title="Thời sự">Thời sự </a></h2>
+</hgroup>
+<p>
+<a href='/giao-thong.html'>Giao thông</a>
+</p>
+<p>
+<a href='/do-thi.html'>Đô thị</a>
+</p>
+<p>
+<a href='/doi-song.html'>Đời sống</a>
+</p>
+<p>
+<a href='/quoc-phong.html'>Quốc phòng</a>
+</p>
+<p>
+<a href='/anh-video-thoi-su.html'>Ảnh & Video</a>
+</p>
+<p><a href="/nhip-song-Tet-2018-tieu-diem.html">Nhịp sống Tết</a></p>
+</header>
+<article class="featured " >
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/csgt-lam-dem-duoc-boi-duong-bao-nhieu-post823134.html">
+CSGT làm đêm được bồi dưỡng bao nhiêu?
+</a>
+</p>
+</header>
+<div class="cover">
+<a href="/csgt-lam-dem-duoc-boi-duong-bao-nhieu-post823134.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/pwivovlb/2018_03_02/IMG_11032016_203429_HHT_1457703447422.jpg" alt="CSGT lam dem duoc boi duong bao nhieu? hinh anh" title="CSGT làm đêm được bồi dưỡng bao nhiêu? hình ảnh">
+</a>
+&nbsp;
+</div>
+<p class="summary">Theo thông tư mới của Bộ Tài chính có hiệu lực từ 1/3, CSGT và lực lượng hỗ trợ đảm bảo ATGT ban đêm được bồi dưỡng tối đa 100.000 đồng nếu làm đủ ca 4 tiếng.</p>
+<ul class="relate">
+<li class="">
+<a href="/bo-cong-an-trinh-de-an-dau-gia-bien-so-oto-post822190.html">
+Bộ Công an trình đề án đấu giá biển số ôtô</a></li>
+</ul>
+</article>
+<div class="top">
+<article class=" haschart" >
+<header>
+<p class="title">
+<a href="/nguoi-me-ke-nguyen-nhan-doi-trai-gai-tu-tu-o-soc-trang-post823082.html">
+Người mẹ kể nguyên nhân đôi trai gái tự tử ở Sóc Trăng
+</a>
+
+</p>
+
+</header>
+</article>
+<article class=" picture">
+<header>
+<p class="title">
+<a href="/1001-kieu-gianh-giat-chen-lan-de-co-loc-dau-nam-post821954.html">
+1.001 kiểu giành giật, chen lấn để có lộc đầu năm
+</a>
+</p>
+
+</header>
+</article>
+<article class=" video" >
+<header>
+<p class="title">
+<a href="/video-vu-xe-ben-tong-hang-loat-xe-may-o-sai-gon-dien-ra-the-nao-post823172.html">
+Vụ xe ben tông hàng loạt xe máy ở Sài Gòn diễn ra thế nào?
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<header>
+<p class="title">
+<a href="/thi-diem-chat-van-va-tra-loi-chat-van-nhanh-voi-hai-bo-truong-post823097.html">
+Thí điểm chất vấn và trả lời chất vấn 'nhanh' với hai bộ trưởng
+</a>
+</p>
+</header>
+</article>
+</div>
+<article class="aside picture hasvideo" >
+<p class="type"></p>
+<div class="cover">
+<a href="/mac-so-mi-quan-jean-thi-dau-vat-o-le-hoi-den-vua-mai-post823020.html">
+<img src="https://znews-photo-td.zadn.vn/w120/Uploaded/mtfuc/2018_03_02/A7_zing.jpg" alt="Mac so mi, quan jean thi dau vat o le hoi den vua Mai hinh anh" title="Mặc sơ mi, quần jean thi đấu vật ở lễ hội đền vua Mai hình ảnh">
+</a>
+
+</div>
+<header>
+<p class="title">
+<a href="/mac-so-mi-quan-jean-thi-dau-vat-o-le-hoi-den-vua-mai-post823020.html">
+Mặc sơ mi, quần jean thi đấu vật ở lễ hội đền vua Mai
+</a>
+</p>
+</header>
+</article>
+</section>
+<section id="the-gioi" class="category skin1">
+<header>
+<hgroup>
+<h2><a href="/the-gioi.html" title="Thế giới">Thế giới </a></h2>
+</hgroup>
+<p>
+<a href='/anh-video-the-gioi.html'>Ảnh & Video</a>
+</p>
+<p>
+<a href='/quan-su-the-gioi.html'>Quân sự</a>
+</p>
+<p>
+<a href='/tu-lieu-the-gioi.html'>Tư liệu</a>
+</p>
+<p>
+<a href='/phan-tich-the-gioi.html'>Phân tích</a>
+</p>
+<p>
+<a href='/nguoi-viet-4-phuong.html'>Người Việt 4 phương</a>
+</p>
+</header>
+<article class="featured picture hasvideo">
+<p class="type"></p>
+<header>
+<p class="title">
+<a href="/do-luong-choan-nuoc-cua-cac-tau-san-bay-tren-the-gioi-post823015.html">
+Đọ lượng choán nước của các tàu sân bay trên thế giới
+</a>
+</p>
+
+</header>
+<div class="cover">
+<a href="/do-luong-choan-nuoc-cua-cac-tau-san-bay-tren-the-gioi-post823015.html">
+<img src="https://znews-photo-td.zadn.vn/w210/Uploaded/bpmoqwq1/2018_03_02/33214180246_0a4afb7264_k.jpg" >
+</a>
+&nbsp;
+</div>
+<p class="summary">Siêu hàng không mẫu hạm lớp Nimitz, với lượng choán nước hơn 100.000 tấn, là tàu sân bay lớn nhất thế giới mà con người từng chế tạo.</p>
+<ul class="relate">
+<li class=" picture hasvideo">
+<a href="/ben-trong-can-cu-khong-quan-noi-sap-den-viet-nam-post822268.html">
+Bên trong căn cứ không quân nổi sắp đến Việt Nam</a></li>
+</ul>
+</article>
+<div class="top">
+<article class=" picture hasvideo">
+<header>
+<p class="title">
+<a href="/bom-bao-tan-cong-cac-bang-bo-dong-nuoc-my-post823199.html">
+'Bom bão' tấn công các bang bờ Đông nước Mỹ
+</a>
+</p>
+
+</header>
+</article>
+<article class="" >
+<header>
+<p class="title">
+<a href="/dai-su-quan-phap-o-burkina-faso-bi-tan-cong-post823196.html">
+Đại sứ quán Pháp ở Burkina Faso bị tấn công
+</a>
+</p>
+
+</header>
+</article>
+<article class=" hasvideo" >
+<header>
+<p class="title">
+<a href="/khung-hoang-o-nha-trang-khi-hy-vong-tro-thanh-that-vong-post822712.html">
+Khủng hoảng ở Nhà Trắng: Khi 'Hy vọng' trở thành thất vọng
+</a>
+</p>
+</header>
+</article>
+<article class="" >
+<header>
+<p class="title">
+<a href="/tphcm-tim-loi-giai-cho-bai-toan-151-xe100-nguoi-cua-nam-2025-post823143.html">
+TP.HCM tìm lời giải cho bài toán 151 xe/100 người của năm 2025
+</a>
+</p>
+</header>
+</article>
+</div>
+<article class="aside video" >
+<p class="type"></p>
+<div class="cover">
+<a href="/video-90s-thong-diep-cung-ran-cua-putin-truoc-bau-cu-tong-thong-nga-post823195.html">
+<img src="https://znews-photo-td.zadn.vn/w120/Uploaded/jaegtn/2018_03_03/Putin.jpg">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/video-90s-thong-diep-cung-ran-cua-putin-truoc-bau-cu-tong-thong-nga-post823195.html">
+90s: Thông điệp cứng rắn của Putin trước bầu cử tổng thống Nga
+</a>
+</p>
+</header>
+</article>
+</section>
+</div>
+
+
+
+<section class="sidebar">
+<section class="pictures">
+<header>
+<h2><a href="/pictures/">Tin ảnh</a></h2>
+</header>
+<div class="slidebox">
+<article class="current">
+<div class="cover">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">
+<img src="https://znews-photo-td.zadn.vn/w480/Uploaded/unvjuas/2018_03_04/1d4a418215200152198931054403383.jpg" alt="Ve lang tu cua chang trai gay thuong nho trong &#39;Thang nam ruc ro&#39; hinh anh" title="Vẻ lãng tử của chàng trai gây thương nhớ trong &#39;Tháng năm rực rỡ&#39; hình ảnh">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">Vẻ lãng tử của chàng trai gây thương nhớ trong 'Tháng năm rực rỡ' </a>
+</p>
+</header>
+</article>
+</div>
+</section>
+<section class="pictures">
+<header>
+<h2><a href="/pictures/">Tin ảnh</a></h2>
+</header>
+<div class="slidebox">
+<article class="current">
+<div class="cover">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">
+<img src="https://znews-photo-td.zadn.vn/w480/Uploaded/unvjuas/2018_03_04/1d4a418215200152198931054403383.jpg" alt="Ve lang tu cua chang trai gay thuong nho trong &#39;Thang nam ruc ro&#39; hinh anh" title="Vẻ lãng tử của chàng trai gây thương nhớ trong &#39;Tháng năm rực rỡ&#39; hình ảnh">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">Vẻ lãng tử của chàng trai gây thương nhớ trong 'Tháng năm rực rỡ' </a>
+</p>
+</header>
+</article>
+</div>
+</section>
+<section class="pictures">
+<header>
+<h2><a href="/pictures/">Tin ảnh</a></h2>
+</header>
+<div class="slidebox">
+<article class="current">
+<div class="cover">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">
+<img src="https://znews-photo-td.zadn.vn/w480/Uploaded/unvjuas/2018_03_04/1d4a418215200152198931054403383.jpg" alt="Ve lang tu cua chang trai gay thuong nho trong &#39;Thang nam ruc ro&#39; hinh anh" title="Vẻ lãng tử của chàng trai gây thương nhớ trong &#39;Tháng năm rực rỡ&#39; hình ảnh">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">Vẻ lãng tử của chàng trai gây thương nhớ trong 'Tháng năm rực rỡ' </a>
+</p>
+</header>
+</article>
+</div>
+</section>
+<section class="pictures">
+<header>
+<h2><a href="/pictures/">Tin ảnh</a></h2>
+</header>
+<div class="slidebox">
+<article class="current">
+<div class="cover">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">
+<img src="https://znews-photo-td.zadn.vn/w480/Uploaded/unvjuas/2018_03_04/1d4a418215200152198931054403383.jpg" alt="Ve lang tu cua chang trai gay thuong nho trong &#39;Thang nam ruc ro&#39; hinh anh" title="Vẻ lãng tử của chàng trai gây thương nhớ trong &#39;Tháng năm rực rỡ&#39; hình ảnh">
+</a>
+</div>
+<header>
+<p class="title">
+<a href="/ve-lang-tu-cua-chang-trai-gay-thuong-nho-trong-thang-nam-ruc-ro-post823444.html">Vẻ lãng tử của chàng trai gây thương nhớ trong 'Tháng năm rực rỡ' </a>
+</p>
+</header>
+</article>
+</div>
+</section>
+</section>
+</section>
+</div>
+
+
+
+
+<footer>
+<div class="wrapper">
+<div class="coppyright">
+<div class="logo">
+<a href="https://news.zing.vn">
+<img src="https://znews-static.zadn.vn/images/zing_footer_logo.jpg" width="130" width="55" /></a>
+<p>
+<a href="https://adtima.vn/ratecard" target="_blank">Quảng cáo</a>
+</p>
+</div>
+<p class="info vcard">
+Giấy phép báo điện tử số: 236/GP-BTTTT. Tổng Biên tập: Ngô Việt Anh
+<br />
+Cơ quan chủ quản: Hội Xuất bản Việt Nam.
+<br />
+Tòa soạn: D29 Trần Thái Tông, Cầu Giấy, Hà Nội.<br />
+<i>Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng văn bản của báo.</i>
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
